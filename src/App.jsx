@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import Header from "./components/Header";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
-  return (
-    <div></div>
-  )
+  return <Header />;
 }
 
-export default App
+export default App;
