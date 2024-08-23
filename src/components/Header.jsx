@@ -11,7 +11,7 @@ import {
 
 function Header() {
   return (
-    <>
+    <div className="">
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container fluid>
           <div className="d-flex align-items-center w-100">
@@ -19,14 +19,13 @@ function Header() {
             <Navbar.Brand href="#home" className="me-3">
               <img src={logo} alt="techcareer logo" />
             </Navbar.Brand>
-            <Form className="d-flex flex-grow-1 me-3">
-
+            <Form className="d-flex  d-none d-md-block">
               <FormControl
                 type="search"
                 placeholder="Etkinlik, İş İlanı, Blog Ara"
                 className="me-2"
                 aria-label="Etkinlik, İş İlanı, Blog Ara"
-              ></FormControl>
+              />
             </Form>
             {/* Navbar Toggler ve Diğer Elemanlar */}
             <Navbar.Toggle aria-controls="navbarScroll" />
@@ -77,7 +76,7 @@ function Header() {
           </div>
         </Container>
       </Navbar>
-    </>
+    </div>
   );
 }
 
