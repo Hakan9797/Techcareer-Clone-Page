@@ -31,7 +31,7 @@ function Header() {
   }, []);
 
   return (
-    <>
+    <div className="outer-shell">
       {/* Arama ikonuna tıklandığında gösterilecek tam ekran arama alanı */}
       {searchExpanded && (
         <div className="fullscreen-search">
@@ -97,7 +97,9 @@ function Header() {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#jobs">İş İlanları</Nav.Link>
-            <Nav.Link href="#trainings"><span style={{color:"#00c26d"}}>●</span>Eğitimler</Nav.Link>
+            <Nav.Link href="#trainings">
+              <span style={{ color: "#00c26d" }}>●</span>Eğitimler
+            </Nav.Link>
             <NavDropdown title="Komünite" id="community-dropdown">
               <NavDropdown.Item href="#join">Komüniteye Katıl</NavDropdown.Item>
               <NavDropdown.Item href="#tdc">TDC</NavDropdown.Item>
@@ -130,7 +132,7 @@ function Header() {
           </Button>
         </div>
       </Navbar>
-    </>
+    </div>
   );
 }
 

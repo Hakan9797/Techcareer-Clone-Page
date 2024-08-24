@@ -1,14 +1,19 @@
-.techcareer-navbar {
-  margin: 20px 50px;
+.outer-shell {
+  margin-bottom: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
-
+.techcareer-navbar {
+  margin: 5px 50px;
+}
 .navbar-logo {
-  width: 225px;
-  height: 35px;
+  margin-left: 150px;
+  width: 215px;
+  height: 30px;
 }
 
 .navbar-search {
-  width: 300px;
+  width: 500px;
 }
 
 .navbar-search input {
@@ -41,7 +46,8 @@
 .btn-success {
   background-color: #00c26d !important;
   border-color: #00c26d !important;
-  font-size: 18px !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
 }
 
 .btn-success:hover {
