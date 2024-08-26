@@ -1,0 +1,38 @@
+.card-shell {
+  background-color: #f6f6f6;
+}
+
+.section-title {
+  font-size: 2rem; 
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.section-button {
+  background-color: #00c26d; 
+  border-color: #00c26d;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.section-button:hover {
+  background-color: #02d076; 
+  border-color: #02d076;
+}
+
+/* Responsive ayarlar */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.5rem; 
+  }
+
+  .section-button {
+    font-size: 0.875rem; 
+    padding: 8px 16px; 
+  }
+}
+
+
