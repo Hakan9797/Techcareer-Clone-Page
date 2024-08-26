@@ -1,5 +1,5 @@
 .outer-container {
-  background: linear-gradient(to bottom, #f6f8ff 75%, #293349 25%);
+  background: linear-gradient(to bottom, #f6f8ff 80%, #293349 20%);
   box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
 .container {
@@ -12,7 +12,7 @@
 .container .carousel-indicators {
   max-width: fit-content;
   margin: auto;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 /* carousel-indicators sınıfındaki noktaların rengini yeşil yapar */
 .container .carousel-indicators li {
@@ -27,8 +27,6 @@
   background-color: #00c26d; 
   border-radius: 50%; 
 }
-
-
 
 .container .carousel-control-prev,
 .container .carousel-control-next {
@@ -45,4 +43,11 @@
 
 .container .carousel-control-next {
   right: -15px; 
+}
+
+@media (max-width: 768px) {
+  .container .carousel-control-prev,
+  .container .carousel-control-next {
+    display: none;
+  }
 }
