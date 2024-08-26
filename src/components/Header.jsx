@@ -14,8 +14,8 @@ import { BsSearch, BsArrowLeft } from "react-icons/bs"; // İkonlar için react-
 
 function Header() {
   const [expanded, setExpanded] = useState(false);
-  const [searchExpanded, setSearchExpanded] = useState(false); // Arama alanı kontrolü için state
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 992); // Ekran boyutuna göre mobil olup olmadığını kontrol eden state
+  const [searchExpanded, setSearchExpanded] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 992);
 
   // Ekran boyutuna göre isMobile state'ini güncelleyen efekt
   useEffect(() => {
@@ -51,9 +51,7 @@ function Header() {
           </Form>
         </div>
       )}
-
       {/* Navbar */}
-
       <Navbar expand="lg" expanded={expanded} className="techcareer-navbar">
         <div className="d-flex align-items-center">
           {/* Toggle Button */}
@@ -135,5 +133,4 @@ function Header() {
     </div>
   );
 }
-
 export default Header;

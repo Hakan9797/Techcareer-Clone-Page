@@ -1,23 +1,27 @@
 .outer-shell {
-  margin-bottom: 3px;
   padding-top: 5px;
   padding-bottom: 5px;
+  background-color: #ffffff;
 }
+
 .techcareer-navbar {
-  margin: 5px 50px;
+  margin: 5px 10px;
 }
+
 .navbar-logo {
-  margin-left: 150px;
-  width: 215px;
-  height: 30px;
+  margin-left: 20px;
+  width: 175px;
+  height: auto;
 }
 
 .navbar-search {
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
 }
 
 .navbar-search input {
   border-radius: 4px;
+  width: 100%;
 }
 
 .navbar-nav .nav-link,
@@ -55,7 +59,6 @@
   border-color: #02d076 !important;
 }
 
-/* Fullscreen Search */
 .fullscreen-search {
   position: fixed;
   top: 0;
