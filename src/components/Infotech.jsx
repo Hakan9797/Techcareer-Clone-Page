@@ -6,7 +6,7 @@ import "./Infotech.css";
 function Infotech() {
   return (
     <div className="info-shell">
-      <div className="container">
+      <div className="tech-container">
         <h2 className="info-title">Neden Techcareer.net?</h2>
         <div className="row">
           <div className="col-12 col-md-4 mb-4">

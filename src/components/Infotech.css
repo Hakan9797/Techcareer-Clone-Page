@@ -1,19 +1,29 @@
 .info-shell {
   background-color: #fff;
 }
-.info-title{
-    margin-bottom: 40px;
-    font-size: 2.1rem;
+.tech-container {
+  width: 100%;
+  max-width: 1140px; 
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 60px;
+  padding-bottom: 10px;
 }
-.info-icon{
-    margin-bottom: 40px;
+.info-title {
+  margin-bottom: 40px;
+  font-size: 2.1rem;
+}
+.info-icon {
+  margin-bottom: 40px;
 }
 
-.info-card-title{
-    font-size: 1.25rem;
-    color: #1d1d1d;
+.info-card-title {
+  font-size: 1.25rem;
+  color: #1d1d1d;
 }
 
-.info{
-    font-size: 0.875rem;
+.info {
+  font-size: 0.875rem;
 }
