@@ -3,7 +3,7 @@
 }
 .tech-container {
   width: 100%;
-  max-width: 1140px; 
+  max-width: 1140px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
@@ -26,4 +26,17 @@
 
 .info {
   font-size: 0.875rem;
+}
+
+.apply-tag {
+  text-decoration: none;
+  color: #00c26d;
+  font-size: 0.9rem;
+  font-weight: 500;
+  /* cursor: pointer; */
+}
+
+.apply-tag:hover {
+  text-decoration: underline;
+  text-decoration-color: #00c26d;
 }
