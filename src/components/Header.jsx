@@ -14,8 +14,8 @@ import { BsSearch, BsArrowLeft } from "react-icons/bs"; // İkonlar için react-
 
 function Header() {
   const [expanded, setExpanded] = useState(false);
-  const [searchExpanded, setSearchExpanded] = useState(false); // Arama alanı kontrolü için state
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 992); // Ekran boyutuna göre mobil olup olmadığını kontrol eden state
+  const [searchExpanded, setSearchExpanded] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 992);
 
   // Ekran boyutuna göre isMobile state'ini güncelleyen efekt
   useEffect(() => {
@@ -31,7 +31,7 @@ function Header() {
   }, []);
 
   return (
-    <>
+    <div className="outer-shell">
       {/* Arama ikonuna tıklandığında gösterilecek tam ekran arama alanı */}
       {searchExpanded && (
         <div className="fullscreen-search">
@@ -51,9 +51,7 @@ function Header() {
           </Form>
         </div>
       )}
-
       {/* Navbar */}
-
       <Navbar expand="lg" expanded={expanded} className="techcareer-navbar">
         <div className="d-flex align-items-center">
           {/* Toggle Button */}
@@ -97,7 +95,9 @@ function Header() {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#jobs">İş İlanları</Nav.Link>
-            <Nav.Link href="#trainings"><span style={{color:"#00c26d"}}>●</span>Eğitimler</Nav.Link>
+            <Nav.Link href="#trainings">
+              <span style={{ color: "#00c26d" }}>●</span>Eğitimler
+            </Nav.Link>
             <NavDropdown title="Komünite" id="community-dropdown">
               <NavDropdown.Item href="#join">Komüniteye Katıl</NavDropdown.Item>
               <NavDropdown.Item href="#tdc">TDC</NavDropdown.Item>
@@ -130,8 +130,7 @@ function Header() {
           </Button>
         </div>
       </Navbar>
-    </>
+    </div>
   );
 }
-
 export default Header;
