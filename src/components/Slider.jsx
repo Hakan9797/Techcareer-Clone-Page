@@ -1,4 +1,3 @@
-
 import img1 from "../assets/sliderimages/img1.png";
 import img2 from "../assets/sliderimages/img2.png";
 import img3 from "../assets/sliderimages/img3.png";
@@ -11,33 +10,19 @@ import Carousel from "react-bootstrap/Carousel";
 import "./Slider.css";
 
 function Slider() {
+  const images = [img1, img2, img3, img4, img5, img6, img7, img8];
   return (
     <div className="outer-container">
       <Carousel className="container">
-        <Carousel.Item interval={5000}>
-          <img className="d-block w-100" src={img1} alt="First slide" />
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          <img className="d-block w-100 " src={img2} alt="Second slide" />
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          <img className="d-block w-100 " src={img3} alt="Third slide" />
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          <img className="d-block w-100 " src={img4} alt="Fourth slide" />
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          <img className="d-block w-100 " src={img5} alt="Fifth slide" />
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          <img className="d-block w-100 " src={img6} alt="Sixth slide" />
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          <img className="d-block w-100 " src={img7} alt="Seventh slide" />
-        </Carousel.Item>
-        <Carousel.Item interval={1000}>
-          <img className="d-block w-100 " src={img8} alt="Eighth slide" />
-        </Carousel.Item>
+        {images.map((image, index) => (
+          <Carousel.Item key={index} interval={5000}>
+            <img
+              src={image}
+              alt={`Image ${index + 1}`}
+              className="d-block w-100"
+            />
+          </Carousel.Item>
+        ))}
       </Carousel>
     </div>
   );
