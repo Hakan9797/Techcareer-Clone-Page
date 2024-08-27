@@ -1,0 +1,19 @@
+.info-shell {
+  background-color: #fff;
+}
+.info-title{
+    margin-bottom: 40px;
+    font-size: 2.1rem;
+}
+.info-icon{
+    margin-bottom: 40px;
+}
+
+.info-card-title{
+    font-size: 1.25rem;
+    color: #1d1d1d;
+}
+
+.info{
+    font-size: 0.875rem;
+}
