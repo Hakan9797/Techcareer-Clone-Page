@@ -1,7 +1,7 @@
 import icon1 from "../assets/icons/icon1.png";
 import icon2 from "../assets/icons/icon2.png";
 import icon3 from "../assets/icons/icon3.png";
-import "./Infotech.css";
+import "./Info.css";
 
 function Infotech() {
   return (
