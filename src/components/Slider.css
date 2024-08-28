@@ -2,52 +2,54 @@
   background: linear-gradient(to bottom, #f6f8ff 80%, #293349 20%);
   box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
-.container {
-  padding: 80px 0px;
+.slider-container {
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-/* Carousel içindeki resimlere tıklanabilirlik (pointer) özelliği ekler */
-.container .carousel-item img {
+
+.slider-container .carousel-item img {
   cursor: pointer;
+  padding-bottom: 15px;
 }
-.container .carousel-indicators {
+.slider-container .carousel-indicators {
   max-width: fit-content;
   margin: auto;
   margin-bottom: 30px;
 }
-/* carousel-indicators sınıfındaki noktaların rengini yeşil yapar */
-.container .carousel-indicators li {
-  background-color: #00c26d; 
-}
-.container .carousel-indicators .active {
-  background-color: #00c26d; 
-}
-.container .carousel-control-prev-icon,
-.container .carousel-control-next-icon {
-  border: 1px solid #f0f0f0f0; 
-  background-color: #00c26d; 
-  border-radius: 50%; 
+
+.slider-container .carousel-indicators li {
+  background-color: #00c26d;
 }
 
-.container .carousel-control-prev,
-.container .carousel-control-next {
-  top: 50%; 
-  transform: translateY(-50%); 
-  width: 30px; 
-  height: 30px; 
-  opacity: 1; 
+.slider-container .carousel-indicators .active {
+  background-color: #00c26d;
 }
 
-.container .carousel-control-prev {
-  left: -15px; 
+.slider-container .carousel-control-prev-icon,
+.slider-container .carousel-control-next-icon {
+  border: 1px solid #f0f0f0f0;
+  background-color: #00c26d;
+  border-radius: 50%;
 }
 
-.container .carousel-control-next {
-  right: -15px; 
+.slider-container .carousel-control-prev,
+.slider-container .carousel-control-next {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  opacity: 1;
 }
 
 @media (max-width: 768px) {
-  .container .carousel-control-prev,
-  .container .carousel-control-next {
+  .slider-container .carousel-control-prev,
+  .slider-container .carousel-control-next {
     display: none;
   }
 }

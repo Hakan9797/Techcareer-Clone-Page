@@ -1,0 +1,70 @@
+.contact-shell {
+  background-color: #293349;
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.contact-title {
+  color: #ffffff;
+  font-size: 34px;
+}
+
+.contact-text {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.input-container {
+  margin-top: 30px;
+  height: 56px;
+}
+
+.input-group .btn-outline-success {
+  color: #fff;
+  background-color: #00c26d;
+  border-color: #00c26d;
+}
+
+.email-input .form-control::placeholder {
+  font-size: 1rem;
+  opacity: 0.6;
+}
+
+.contact-suggest-text {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+  line-height: 1.75;
+  margin-top: 32px;
+  color: #00c26d;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contacts a,
+.contacts p {
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 0.15px;
+  font-weight: 400;
+  line-height: 1.5;
+  cursor: pointer;
+}

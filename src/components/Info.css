@@ -1,0 +1,41 @@
+.info-shell {
+  background-color: #fff;
+}
+.tech-container {
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+.info-title {
+  margin-bottom: 40px;
+  font-size: 2.1rem;
+}
+.info-icon {
+  margin-bottom: 40px;
+}
+
+.info-card-title {
+  font-size: 1.25rem;
+  color: #1d1d1d;
+}
+
+.info {
+  font-size: 0.875rem;
+}
+
+.apply-tag {
+  text-decoration: none;
+  color: #00c26d;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.apply-tag:hover {
+  text-decoration: underline;
+  text-decoration-color: #00c26d;
+}

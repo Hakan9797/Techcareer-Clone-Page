@@ -1,0 +1,141 @@
+.footer {
+  background-color: #f0f0f0;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #878787;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: 12px;
+}
+
+.footer ul li a {
+  color: #1d1d1d;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.025rem;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer .social-media-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.footer .social-media-icons li a {
+  color: #1d1d1d;
+  padding: 5px;
+  border: 1px solid #d3d3d3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.techcareer-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1d1d1d;
+}
+
+.accordion-item {
+  background-color: transparent !important;
+  border: none;
+}
+
+.accordion-button {
+  background-color: transparent !important;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.custom-accordion-button .collapsed {
+  align-items: center;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: #878787 !important;
+  background-color: transparent;
+  border: none;
+  padding: 15px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #878787;
+  padding: 15px;
+}
+
+.accordion-body {
+  padding: 0;
+}
+
+.copyright {
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  font-weight: 400;
+  line-height: 1.66;
+  color: #878787;
+  text-align: right;
+}
+
+.copyright a {
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  font-weight: 400;
+  line-height: 1.66;
+  color: #878787;
+}
+
+.custom-social-media-icons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+.custom-social-media-icons li a {
+  color: #1d1d1d;
+  padding: 5px;
+  border: 1px solid #d3d3d3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}

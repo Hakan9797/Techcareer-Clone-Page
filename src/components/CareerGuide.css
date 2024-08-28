@@ -1,0 +1,64 @@
+.career-shell {
+  background-color: #efffeb;
+  background-image: url("../assets/careerimage.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.career-container {
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-header {
+  font-size: 33px;
+  font-weight: 500;
+  color: #1d1d1d;
+}
+.section-question {
+  color: #00c26d;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section-info {
+  padding-right: 500px;
+  font-size: 18px;
+  color: #1d1d1d;
+}
+
+.career-button {
+  background-color: #00c26d;
+  border-color: #00c26d;
+  padding: 8px 20px;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.career-button:hover {
+  background-color: #02d076;
+  border-color: #02d076;
+}
+
+@media (max-width: 900px) {
+  .career-button {
+    width: 100%;
+  }
+
+  .career-shell {
+    background-color: #efffeb;
+    background-image: none;
+  }
+  .section-info {
+    padding-right: 0px;
+    font-size: 18px;
+    color: #1d1d1d;
+  }
+}

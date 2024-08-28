@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 import EventCard from "./EventCard";
 import "./EventCardList.css";
 import event1 from "../assets/eventimages/event1.png";
@@ -33,24 +33,24 @@ const events = [
 function EventList() {
   return (
     <div className="card-shell">
-      <Container className="text-center ">
-        <h2 className="section-title">Başvurunu Bekleyen Etkinlikler</h2>
-        <Row className="justify-content-center">
-          {events.map((event) => (
-            <Col
-              key={event.id}
-              md={6}
-              lg={4}
-              className="d-flex justify-content-center mb-4"
-            >
-              <EventCard event={event} />
-            </Col>
-          ))}
-        </Row>
-        <Button className="section-button my-4" >
-          Tüm Etkinlikleri Gör
-        </Button>
-      </Container>
+      <div className="event-list-container">
+        <div className="text-center ">
+          <h2 className="section-title">Başvurunu Bekleyen Etkinlikler</h2>
+          <Row className="justify-content-center">
+            {events.map((event) => (
+              <Col
+                key={event.id}
+                md={6}
+                lg={4}
+                className="d-flex justify-content-center mb-4"
+              >
+                <EventCard event={event} />
+              </Col>
+            ))}
+          </Row>
+          <Button className="section-button my-4">Tüm Etkinlikleri Gör</Button>
+        </div>
+      </div>
     </div>
   );
 }
