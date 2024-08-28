@@ -13,7 +13,7 @@ function Slider() {
   const images = [img1, img2, img3, img4, img5, img6, img7, img8];
   return (
     <div className="outer-container">
-      <Carousel className="container">
+      <Carousel className="slider-container">
         {images.map((image, index) => (
           <Carousel.Item key={index} interval={5000}>
             <img
