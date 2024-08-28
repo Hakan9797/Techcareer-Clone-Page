@@ -1,5 +1,9 @@
 .career-shell {
   background-color: #efffeb;
+  background-image: url("../assets/careerimage.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 
 .career-container {
@@ -14,7 +18,8 @@
 }
 
 .section-header {
-  font-size: 30px;
+  font-size: 33px;
+  font-weight: 500;
   color: #1d1d1d;
 }
 .section-question {
@@ -24,6 +29,7 @@
 }
 
 .section-info {
+  padding-right: 500px;
   font-size: 18px;
   color: #1d1d1d;
 }
@@ -44,5 +50,15 @@
 @media (max-width: 900px) {
   .career-button {
     width: 100%;
+  }
+
+  .career-shell {
+    background-color: #efffeb;
+    background-image: none;
+  }
+  .section-info {
+    padding-right: 0px;
+    font-size: 18px;
+    color: #1d1d1d;
   }
 }

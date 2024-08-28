@@ -6,7 +6,7 @@ function CareerGuide() {
     <div className="career-shell">
       <div className="career-container">
         <div className="row">
-          <div className="col-7">
+          <div>
             <h4 className="section-header">Kariyer Rehberi'yle Geliş</h4>
             <p className="section-question">
               Yeni teknoloji kariyerini seçmeye hazır mısın?
@@ -18,7 +18,6 @@ function CareerGuide() {
             </p>
             <Button className="career-button">Hemen İncele</Button>
           </div>
-          <div className="col-5"></div>
         </div>
       </div>
     </div>
