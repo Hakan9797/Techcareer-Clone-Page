@@ -1,0 +1,110 @@
+.comment-shell {
+  background-color: #f6f6f6;
+}
+
+.comment-container {
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.comment-container .card {
+  margin-top: 20px;
+  height: 230px; 
+  overflow: hidden;
+  display: flex;
+  align-items: center; 
+}
+
+.comment-text {
+  height: 150px; 
+  overflow-y: auto; 
+  margin-bottom: 10px; 
+  font-size: 14px;
+  padding-right: 8px;
+}
+.comment-user {
+  font-size: 14px;
+  color: #1d1d1d;
+  font-weight: 500;
+}
+.bootcamp {
+  font-size: 12px;
+  font-weight: 400;
+  color: #1d1d1d;
+}
+
+.comment-image {
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+.comment-container .carousel-indicators .active {
+  background-color: #00c26d;
+}
+.comment-container .carousel-control-prev-icon,
+.comment-container .carousel-control-next-icon {
+  border: 1px solid #f0f0f0f0;
+  background-color: #00c26d;
+  border-radius: 50%;
+}
+
+.comment-container .carousel-control-prev,
+.comment-container .carousel-control-next {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  opacity: 0.7;
+}
+.comment-container .carousel-control-prev {
+  left: -15px;
+}
+
+.comment-container .carousel-control-next {
+  right: -15px;
+}
+
+.comment-button {
+  background-color: #00c26d;
+  border-color: #00c26d;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.comment-button:hover {
+  background-color: #02d076;
+  border-color: #02d076;
+}
+
+@media (max-width: 768px) {
+  .comment-container .carousel-control-prev,
+  .comment-container .carousel-control-next {
+    display: none;
+  }
+
+  .comment-container .card {
+    height: auto;
+    width: auto;
+  }
+}
+
+.comment-text::-webkit-scrollbar {
+  width: 6px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+.comment-text::-webkit-scrollbar-thumb {
+  background-color: #00c26d;
+  border-radius: 8px;
+}
