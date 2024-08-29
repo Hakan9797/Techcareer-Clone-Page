@@ -66,12 +66,12 @@
 }
 
 .accordion-item {
-  background-color: transparent !important;
+  background-color: transparent;
   border: none;
 }
 
 .accordion-button {
-  background-color: transparent !important;
+  background-color: transparent;
   border: none;
   box-shadow: none;
   padding: 0;
@@ -83,16 +83,16 @@
 
 .custom-accordion-button .collapsed {
   align-items: center;
-  font-size: 14px !important;
-  font-weight: 400 !important;
-  color: #878787 !important;
+  font-size: 14px;
+  font-weight: 400;
+  color: #878787;
   background-color: transparent;
   border: none;
   padding: 15px;
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: transparent !important;
+  background-color: transparent;
   text-align: center;
   font-size: 14px;
   font-weight: 400;
