@@ -3,19 +3,26 @@
   padding-bottom: 5px;
   background-color: #ffffff;
 }
+.header-container{
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
 .techcareer-navbar {
-  margin: 5px 10px;
+  margin: 5px 0px;
 }
 
 .navbar-logo {
-  margin-left: 20px;
   width: 175px;
   height: auto;
 }
 
 .navbar-search {
-  max-width: 500px;
+  max-width: 300px;
   width: 100%;
 }
 
@@ -33,6 +40,7 @@
 .navbar-nav .dropdown-item {
   color: #1d1d1d;
   font-weight: 500;
+  font-size: 14px;
   margin-right: 15px;
 }
 

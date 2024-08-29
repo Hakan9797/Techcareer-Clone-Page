@@ -13,7 +13,7 @@ function ContactSection() {
           Birlikte etkinlik düzenlemek ve size ulaşmamız için şirket e-mail
           adresinizi girin! 🚀
         </div>
-        <Form className="d-flex mx-auto navbar-search input-container">
+        <Form className="d-flex mx-auto contact-search input-container">
           <InputGroup className="email-input">
             <InputGroup.Text id="basic-addon1">
               <HiOutlineMail />

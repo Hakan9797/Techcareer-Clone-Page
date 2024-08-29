@@ -1,0 +1,73 @@
+.all-event-header-shell {
+  background-color: #293349;
+  background-image: url("../assets/alleventheaderimage.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.all-event-container {
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 90px;
+}
+
+.all-event-tags {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.all-event-tags:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.all-event-header {
+  font-size: 33px;
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 24px;
+  padding-top: 40px;
+}
+
+.all-event-header-text {
+  padding-right: 500px;
+  font-size: 18px;
+  color: #fff;
+  padding-bottom: 24px;
+}
+
+.all-event-button {
+  background-color: #00c26d;
+  border-color: #00c26d;
+  padding: 8px 60px;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.all-event-button:hover {
+  background-color: #02d076;
+  border-color: #02d076;
+}
+
+@media (max-width: 900px) {
+  .all-event-button {
+    display: none;
+  }
+
+  .all-event-header-shell {
+    background-color: #293349;
+    background-image: none;
+  }
+  .all-event-header-text {
+    padding-right: 0px;
+    font-size: 18px;
+    color: #fff;
+  }
+}

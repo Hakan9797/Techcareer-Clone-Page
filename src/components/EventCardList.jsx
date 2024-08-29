@@ -1,10 +1,10 @@
-import React from "react";
 import { Row, Col, Button } from "react-bootstrap";
 import EventCard from "./EventCard";
 import "./EventCardList.css";
 import event1 from "../assets/eventimages/event1.png";
 import event2 from "../assets/eventimages/event2.png";
 import event3 from "../assets/eventimages/event3.png";
+import { useNavigate } from "react-router-dom";
 
 const events = [
   {
@@ -31,6 +31,13 @@ const events = [
 ];
 
 function EventList() {
+  const navigate = useNavigate();
+
+  function handleClick() {
+    window.scrollTo(0, 0);
+    navigate("/allevents");
+  }
+
   return (
     <div className="card-shell">
       <div className="event-list-container">
@@ -44,11 +51,13 @@ function EventList() {
                 lg={4}
                 className="d-flex justify-content-center mb-4"
               >
-                <EventCard event={event} />
+                <EventCard event={event} buttonText="Başvur" />
               </Col>
             ))}
           </Row>
-          <Button className="section-button my-4">Tüm Etkinlikleri Gör</Button>
+          <Button onClick={handleClick} className="section-button my-4">
+            Tüm Etkinlikleri Gör
+          </Button>
         </div>
       </div>
     </div>
