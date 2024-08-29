@@ -2,10 +2,10 @@ import React from "react";
 import { Card, Button } from "react-bootstrap";
 import "./EventCard.css";
 
-function EventCard({ event }) {
+function EventCard({ event, buttonText }) {
   return (
     <Card className="event-card">
-      <Card.Img variant="top" src={event.image} alt={event.title}/>
+      <Card.Img variant="top" src={event.image} alt={event.title} />
       <Card.Body>
         <Card.Title className="event-title">{event.title}</Card.Title>
         <Card.Text className="event-description">{event.description}</Card.Text>
@@ -17,7 +17,7 @@ function EventCard({ event }) {
           <span className="text">SON BAŞVURU:</span> {event.date}
         </Card.Text>
         <Button variant="primary" className="event-button">
-          Başvur
+          {buttonText}
         </Button>
       </Card.Body>
     </Card>
