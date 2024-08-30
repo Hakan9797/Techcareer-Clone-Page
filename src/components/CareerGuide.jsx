@@ -16,7 +16,7 @@ function CareerGuide() {
               seçeceğini veya seçtiğin pozisyonda hangi adımlardan geçmen
               gerektiğini bilmiyorsan, Kariyer Rehberi ile en doğru yerdesin!
             </p>
-            <Button className="career-button">Hemen İncele</Button>
+            <Button variant="success" className="career-button">Hemen İncele</Button>
           </div>
         </div>
       </div>

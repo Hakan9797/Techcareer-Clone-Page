@@ -20,7 +20,7 @@ function AllEventsHeader() {
               becerilerini geliştir. Hemen keşfet, hızla başvur ve kariyerini
               ileri taşı!
             </p>
-            <Button className="all-event-button">Keşfet</Button>
+            <Button variant="success" className="all-event-button">Keşfet</Button>
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ function EventCard({ event, buttonText }) {
         <Card.Text className="event-date">
           <span className="text">SON BAŞVURU:</span> {event.date}
         </Card.Text>
-        <Button variant="primary" className="event-button">
+        <Button variant="success" className="event-button">
           {buttonText}
         </Button>
       </Card.Body>

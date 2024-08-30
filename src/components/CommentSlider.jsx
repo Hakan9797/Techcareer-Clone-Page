@@ -54,7 +54,7 @@ function CommentCardSlider() {
           ))}
         </Carousel>
         <div className="text-center">
-          <Button className="comment-button ">Tüm Yorumları Gör</Button>
+          <Button variant="success" className="comment-button ">Tüm Yorumları Gör</Button>
         </div>
       </div>
     </div>

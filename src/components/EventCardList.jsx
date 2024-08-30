@@ -55,7 +55,7 @@ function EventList() {
               </Col>
             ))}
           </Row>
-          <Button onClick={handleClick} className="section-button my-4">
+          <Button variant="success" onClick={handleClick} className="section-button my-4">
             Tüm Etkinlikleri Gör
           </Button>
         </div>
