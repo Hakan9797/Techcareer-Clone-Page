@@ -74,10 +74,10 @@
 }
 
 .event-accordion .accordion-button:not(.collapsed) {
-  color: #1d1d1d; /* Aktif yazı rengi */
-  background-color: #fff; /* Aktif arka plan rengi */
+  color: #1d1d1d; 
+  background-color: #fff; 
 }
 
 .event-accordion .accordion-button:focus {
-  box-shadow: none; /* Focus gölgesi kaldır */
+  box-shadow: none; 
 }
