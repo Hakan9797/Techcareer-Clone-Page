@@ -1,6 +1,5 @@
 .all-event-header-shell {
-  background-color: #293349;
-  background-image: url("../assets/alleventheaderimage.png");
+  background-image: url("../assets/background.png");
   background-repeat: no-repeat;
   background-position-x: right;
 }

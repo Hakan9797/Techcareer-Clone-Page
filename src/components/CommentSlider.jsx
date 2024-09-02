@@ -1,6 +1,7 @@
 import { Carousel, Card, Container, Row, Col, Button } from "react-bootstrap";
 import CommentCardData from "../data/CommentData.jsx";
 import "./CommentSlider.css";
+import { useNavigate } from "react-router-dom";
 
 // Kart bileşeni
 const CommentCard = ({ image, comment, bootcamp, person }) => {
@@ -24,6 +25,13 @@ const CommentCard = ({ image, comment, bootcamp, person }) => {
 
 // Slider bileşeni
 function CommentCardSlider() {
+  const navigate = useNavigate();
+
+  function handleClick() {
+    navigate("/allcomments");
+    window.scrollTo(0, 0);
+  }
+
   return (
     <div className="comment-shell">
       <div className="comment-container">
@@ -54,7 +62,13 @@ function CommentCardSlider() {
           ))}
         </Carousel>
         <div className="text-center">
-          <Button variant="success" className="comment-button ">Tüm Yorumları Gör</Button>
+          <Button
+            variant="success"
+            className="comment-button "
+            onClick={handleClick}
+          >
+            Tüm Yorumları Gör
+          </Button>
         </div>
       </div>
     </div>
