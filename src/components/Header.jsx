@@ -93,12 +93,12 @@ function Header() {
                 <NavDropdown.Item href="#hiringchallenge">
                   Hiring Challenge
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#allevent">
+                <NavDropdown.Item href="/allevents">
                   Tüm Etkinlikler
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="#jobs">İş İlanları</Nav.Link>
-              <Nav.Link href="#trainings">
+              <Nav.Link href="/courses" >
                 <span style={{ color: "#00c26d" }}>●</span>Eğitimler
               </Nav.Link>
               <NavDropdown title="Komünite" id="community-dropdown">
