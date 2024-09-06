@@ -1,7 +1,14 @@
 import { Button } from "react-bootstrap";
 import "./CareerGuide.css";
+import { useNavigate } from "react-router-dom";
 
 function CareerGuide() {
+  const navigate = useNavigate();
+
+  function handleClick() {
+    navigate("/careerguide");
+  }
+
   return (
     <div className="career-shell">
       <div className="career-container">
@@ -16,7 +23,13 @@ function CareerGuide() {
               seçeceğini veya seçtiğin pozisyonda hangi adımlardan geçmen
               gerektiğini bilmiyorsan, Kariyer Rehberi ile en doğru yerdesin!
             </p>
-            <Button variant="success" className="career-button">Hemen İncele</Button>
+            <Button
+              onClick={handleClick}
+              variant="success"
+              className="career-button"
+            >
+              Hemen İncele
+            </Button>
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
+  box-shadow:inset 0 10px 10px -10px rgba(0, 0, 0, 0.1); /* Yalnızca üst tarafa gölge */
 }
 
 .career-container {
@@ -11,10 +12,7 @@
   max-width: 1140px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 15px;
 }
 
 .section-header {
@@ -61,4 +59,24 @@
     font-size: 18px;
     color: #1d1d1d;
   }
+}
+
+.career-guide-tags {
+  font-size: 16px;
+  color: #878787;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.career-guide-tags:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.career-link {
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 15px;
 }
