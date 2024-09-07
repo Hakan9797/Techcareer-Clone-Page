@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
-  box-shadow:inset 0 10px 10px -10px rgba(0, 0, 0, 0.1); /* Yalnızca üst tarafa gölge */
+  box-shadow:inset 0 10px 10px -10px rgba(0, 0, 0, 0.1); 
 }
 
 .career-container {

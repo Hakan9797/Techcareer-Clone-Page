@@ -7,10 +7,7 @@
   max-width: 1140px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 50px;
-  padding-bottom: 25px;
+  padding: 50px 15px 25px 15px;
 }
 
 .career-list-header {
@@ -56,4 +53,87 @@
 .position-list {
   list-style-type: none;
   padding: 0;
+}
+
+.career-steps-shell {
+  background-color: #fff;
+}
+
+.career-steps-container {
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px 15px 25px 15px;
+}
+.career-steps-title {
+  color: #1d1d1d;
+  padding-left: 30px;
+  margin: 16px 0px;
+  font-size: 2.08rem;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  line-height: 1.2;
+}
+.career-steps-info {
+  padding-left: 30px;
+  color: #1d1d1d;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.step-image {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .career-steps-title {
+    font-size: 1.85rem;
+  }
+}
+
+.career-accordion .accordion-header {
+  background-color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  color: #1d1d1d;
+  padding: 12px 16px;
+  border-radius: 5px;
+}
+
+.career-accordion .accordion-body {
+  background-color: #ffffff;
+  padding: 20px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #1d1d1d;
+  text-align: left;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.career-accordion .accordion-item {
+  margin-bottom: 20px;
+  border: solid 1px #d8d8d8;
+}
+
+.career-accordion .accordion-button {
+  background-color: transparent;
+  color: inherit;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  border: none;
+  box-shadow: none;
+}
+
+.career-accordion .accordion-button:not(.collapsed) {
+  color: #1d1d1d;
+  background-color: #fff;
+}
+
+.career-accordion .accordion-button:focus {
+  box-shadow: none;
 }

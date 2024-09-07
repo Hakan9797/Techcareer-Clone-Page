@@ -1,8 +1,8 @@
-.all-course-header-shell {
-  background-image: url("../assets/coursebackground.png");
+.all-event-header-shell {
+  background-image: url("../assets/background.png");
 }
 
-.all-course-container {
+.all-event-container {
   width: 100%;
   max-width: 1140px;
   margin-right: auto;
@@ -10,36 +10,36 @@
   padding-right: 15px;
   padding-left: 15px;
   padding-top: 10px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
-.all-course-tags {
+.all-event-tags {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
   padding-right: 15px;
 }
 
-.all-course-tags:hover {
+.all-event-tags:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
-.all-course-header {
+.all-event-header {
   font-size: 33px;
   font-weight: 500;
   color: #fff;
   padding-bottom: 24px;
-  padding-top: 90px;
+  padding-top: 40px;
 }
 
-.all-course-header-text {
-  padding-right: 500px;
+.all-event-header-text {
   font-size: 16px;
   color: #fff;
+  padding-bottom: 24px;
 }
 
-.all-course-button {
+.all-event-button {
   background-color: #00c26d;
   border-color: #00c26d;
   padding: 8px 60px;
@@ -47,37 +47,23 @@
   font-size: 0.95rem;
 }
 
-.all-course-button:hover {
+.all-event-button:hover {
   background-color: #02d076;
   border-color: #02d076;
 }
 
 @media (max-width: 900px) {
-  .all-course-button {
+  .all-event-button {
     display: none;
   }
 
-  .all-course-header-shell {
+  .all-event-header-shell {
     background-color: #293349;
     background-image: none;
   }
-  .all-course-header-text {
+  .all-event-header-text {
     padding-right: 0px;
     font-size: 18px;
     color: #fff;
   }
-}
-
-.course-header-tag {
-  width: fit-content;
-  padding: 5px 11px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  margin-bottom: 20px;
-  border: 1px solid #293349;
-  border-radius: 16px;
-  font-size: 13px;
-  background-color: #f6f8ff;
-  color: #293349;
 }

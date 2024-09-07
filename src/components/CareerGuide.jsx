@@ -7,6 +7,7 @@ function CareerGuide() {
 
   function handleClick() {
     navigate("/careerguide");
+    window.scrollTo(0, 0);
   }
 
   return (

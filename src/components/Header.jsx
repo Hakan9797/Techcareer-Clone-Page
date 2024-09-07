@@ -61,7 +61,7 @@ function Header() {
               onClick={() => setExpanded(expanded ? false : "expanded")}
             />
             {/* Logo */}
-            <Navbar.Brand href="#home" className="ms-2">
+            <Navbar.Brand href="/" className="ms-2">
               <img src={logo} alt="Techcareer Logo" className="navbar-logo" />
             </Navbar.Brand>
           </div>
@@ -98,7 +98,7 @@ function Header() {
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="#jobs">İş İlanları</Nav.Link>
-              <Nav.Link href="/courses" >
+              <Nav.Link href="/courses">
                 <span style={{ color: "#00c26d" }}>●</span>Eğitimler
               </Nav.Link>
               <NavDropdown title="Komünite" id="community-dropdown">
@@ -108,7 +108,7 @@ function Header() {
                 <NavDropdown.Item href="#tdc">TDC</NavDropdown.Item>
                 <NavDropdown.Item href="#blog">Blog</NavDropdown.Item>
                 <NavDropdown.Item href="#podcast">Podcast</NavDropdown.Item>
-                <NavDropdown.Item href="#career-guide">
+                <NavDropdown.Item href="/careerguide">
                   Kariyer Rehberi
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#tech-dictionary">
