@@ -9,6 +9,7 @@ import AllEventsPage from "./pages/AllEventsPage.jsx";
 import AllCommentPage from "./pages/AllCommentPage.jsx";
 import CoursePage from "./pages/CoursePage.jsx";
 import CareerGuidePage from "./pages/CareerGuidePage.jsx";
+import CompaniesPage from "./pages/CompaniesPage.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/allcomments" element={<AllCommentPage />}></Route>
         <Route path="/courses" element={<CoursePage />}></Route>
         <Route path="/careerguide" element={<CareerGuidePage />}></Route>
+        <Route path="/companies" element={<CompaniesPage />}></Route>
       </Routes>
       <Footer />
     </Router>

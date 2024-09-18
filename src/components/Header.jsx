@@ -115,7 +115,7 @@ function Header() {
                   Teknik Sözlük
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#companies">Şirketler</Nav.Link>
+              <Nav.Link href="/companies">Şirketler</Nav.Link>
             </Nav>
           </Navbar.Collapse>
           {/* Giriş Butonu ve Koşullu Arama İkonu */}
